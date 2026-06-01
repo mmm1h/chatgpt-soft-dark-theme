@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Premium Soft Gray Dark Theme (ChatGPT 舒适灰护眼暗黑主题)
 // @namespace    https://github.com/antigravity/chatgpt-soft-dark-theme
-// @version      3.2.0
+// @version      3.3.0
 // @description  Change ChatGPT's background color in dark mode to a premium soft gray (#3c3c3c) to reduce eye strain. (将ChatGPT暗黑模式与明亮模式的背景及字体均重设为医学级多套柔和护眼主题，完美支持行内代码块 hexyard-postgres 动态调色)
 // @author       Antigravity
 // @match        https://chatgpt.com/*
@@ -85,6 +85,32 @@
             codeBg: '#131118',
             text: '#ebdff5',
             textMuted: '#c3b6d2'
+        },
+        INK_CHARCOAL: {
+            isDark: true,
+            name: '暗黛青润墨竹灰',
+            desc: '黛青墨竹深灰底，极低字底对比度，散光友好',
+            dotColor: '#282e30',
+            bg: '#282e30',
+            sidebar: '#1e2325',
+            highlight: '#333b3e',
+            input: '#1a1e20',
+            codeBg: '#15181a',
+            text: '#d5dedf',  // Soft mineral cyan-white
+            textMuted: '#a6b2b4'
+        },
+        MOONLIT_SHADOW: {
+            isDark: true,
+            name: '月影柔和灰褐底',
+            desc: '温润月影灰褐底，仿古籍低对比，夜间极润',
+            dotColor: '#34302d',
+            bg: '#34302d',
+            sidebar: '#282522',
+            highlight: '#403b37',
+            input: '#201d1c',
+            codeBg: '#1a1817',
+            text: '#e4dfda',  // Soft parchment-gray
+            textMuted: '#bdaea4'
         },
 
         // --- LIGHT PROTECTION THEMES ---
